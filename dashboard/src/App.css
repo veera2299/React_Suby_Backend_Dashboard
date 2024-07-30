@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.navSection {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightpink; */
+    background-color: #95190c;
+    padding: 0 20px;
+    font-size: x-large;
+    color: black;
+    color: white;
+
+}
+
+.sideBarSection {
+
+    padding-top: 10px;
+    width: 100%;
+    max-width: 15%;
+    height: 95vh;
+    /* background-color: lightgrey; */
+    background-color: #044B7F;
+    color: white;
+
+}
+
+.sideBarSection ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.collectionSection {
+    display: flex;
+
+}
+
+/* loginSection */
+
+.loginSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm {
+    width: 100%;
+    max-width: 50%;
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+
+.authForm input {
+    width: 100%;
+    max-width: 55%;
+    height: 1.3rem;
+}
+
+.authForm label {
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+
+/* register section */
+.registerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* firmSection addFirm */
+
+.firmSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableForm {
+    width: 100%;
+    max-width: 50%;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    -webkit-box-shadow: -7px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 7px 6px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.tableForm input {
+    width: 100%;
+    max-width: 85%;
+    height: 1.3rem;
+    margin-bottom: 10px;
+
+}
+
+.tableForm label {
+    width: 100%;
+    max-width: 85%;
+}
+
+/* checkbox */
+
+.checkinp {
+    display: flex;
+    width: 100%;
+    max-width: 85%;
+
+    align-items: center;
+}
+
+.checkinp label {
+    width: 100%;
+    max-width: 25%;
+}
+
+.inputsContainer {
+    display: flex;
+}
+
+.checkboxcontainer {
+    width: 100%;
+    max-width: 50%;
+
+}
+
+/* products Table */
+
+.product-table {
+    border: 2px solid black;
+    width: 150vh;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin: 50px;
+
+}
+
+.product-table th,
+.product-table td {
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.product-table th {
+    background-color: lightgray;
+}
+
+.product-table button {
+    margin: 20px 0 0 20px;
+}
+
+/* Not Found */
+.errorSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorSection h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    color: rgb(47, 7, 169);
+}
+/* btn Submit */
+.btnSubmit button{
+    background-color: darkorchid;
+    width: 6rem;
+    color: white;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
